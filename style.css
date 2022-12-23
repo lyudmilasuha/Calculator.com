@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Times";
+  background-color: #490303;
+}
+section {
+  margin-top:20px;
+  background-color:#490303;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color:#d1b500;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.display {
+  background-color: rgb(228, 247, 85);
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+.display-1 {
+  opacity: 0.5;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.all_button {
+  color: #100e0e;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  text-align: center;
+}
+.button {
+  border: 0.5px solid #bda400;
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #8f7c00;
+}
+.header{
+  width: 60%;
+  margin-left: 300px;
+  background-color: #b56b03;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px #7e4a01;
+}
+.header h1{
+font-size: 75px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
